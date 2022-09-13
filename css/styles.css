@@ -490,8 +490,8 @@ img {
     background-color: var(--accent-color-blue);
 }
 .subscribe-wrapper {
-    width: 100%;
-    margin-left: 93px;
+    /* width: 100%; */
+    margin-left: auto;
 }
 .subscribe-title {
     font-size: 14px;
@@ -792,6 +792,7 @@ img {
 
 .checkbox-wrapper {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin-bottom: 30px;
